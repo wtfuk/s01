@@ -1,0 +1,29 @@
+# Binaries and artifacts
+/bin/
+/pkg/
+
+# Dependency directories (removed with Go modules, but just in case)
+/vendor/
+
+# Editor settings and system files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Go-specific files
+*.out
+*.test
+
+# Project-specific
+!/.gitignore
+!*.go
+!go.mod
+!go.sum
+!README.md
+!LICENSE
+!Makefile
